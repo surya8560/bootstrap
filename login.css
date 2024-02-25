@@ -1,0 +1,65 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+}
+#ad{
+    background-color:brown;
+}
+.txt{
+    color: white;
+}
+.bg{
+    border: solid;
+    border-color: white;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.ov{
+    position: relative;
+    left:100px;
+    display: flex;
+    flex-wrap: nowrap;
+    top: 100px;
+}
+h1{
+    color: white;
+    font-size:5vw;
+}
+.bt{
+    
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+:hover.bt{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bt1{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 65px;
+    bottom: 35px;
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+:hover.bt{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+input{
+    position: relative;
+    left: 10px;
+    border-radius: 30px;
+}
